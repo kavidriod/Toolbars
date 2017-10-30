@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context="myandroidninja.wordpress.toolbars.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Tool Bar Example"/>
+
+    <Button
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/standaloneToolbar"
+        android:layout_width="wrap_content"
+        android:onClick="standaloneToolbar"
+        android:layout_height="wrap_content"
+        android:text="Stand Alone Tool Bar"
+        />
+
+    <Button
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:id="@+id/toolbarAsActionBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="toolbarAsActionBar"
+        android:text="Tool Bar As ActionBar"
+        />
+
+    <Button
+        android:padding="5dp"
+        android:layout_margin="5dp"
+        android:background="@color/colorAccent"
+        android:onClick="ContextualToolbar"
+        android:id="@+id/ContextualToolbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contextual"
+        />
+
+</LinearLayout>
